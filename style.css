@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    text-rendering: optimizeLegibility;
+    font-size: 62.5%;
+    height: 100%;
+    width: 100%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: rgba(0, 128, 0, 0.200);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sec1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+#calc{
+    width: 35%;
+    height: 75%;
+
+    border-radius: 4rem;
+    background-color: black;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#hist{
+    padding: 12.5%;
+    display: block;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+}
+
+#hist div{
+    font-size: 4rem;
+}
+
+p{
+    font-size: 5rem;
+    display: block;
+}
+
+input{
+    font-size: 5rem;
+    height: 15%;
+    width: 100%;
+
+    text-align: center;
+
+    border-radius: 2rem;
+}
+
+button{
+    height: 17%;
+    width: 25%;
+    border-radius: 2rem;
+
+    font-size: 4rem;
+}
+
+button:hover{
+    background-color: rgba(128, 128, 128, 0.900);
+}
+
+h1{
+    font-size: 5rem;
+}
+
